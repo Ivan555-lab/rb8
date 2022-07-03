@@ -3,8 +3,8 @@ from django.utils import timezone
 from django.contrib.auth.models import User
 from django.urls import reverse
 
-#fix1
-#dev
+
+#testing
 class PublishManager(models.Manager):
     def get_queryset(self):
         return super().get_queryset().filter(status='published')
