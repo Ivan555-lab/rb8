@@ -5,6 +5,7 @@ from django.urls import reverse
 
 #t1
 #hf1
+#hf2
 class PublishManager(models.Manager):
     def get_queryset(self):
         return super().get_queryset().filter(status='published')
