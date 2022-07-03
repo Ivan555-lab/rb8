@@ -4,8 +4,19 @@ from django.contrib.auth.models import User
 from django.urls import reverse
 
 
+
 # it is additional Manager
 #dev real
+#t2
+#f1
+#fi53
+#t1
+#hf1
+#hf2 add
+#hf3
+#hf4
+#t1
+
 
 class PublishManager(models.Manager):
     def get_queryset(self):
