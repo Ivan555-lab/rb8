@@ -4,8 +4,8 @@ from django.contrib.auth.models import User
 from django.urls import reverse
 
 
-#fix1
-#testing change
+# it is additional Manager
+#dev real
 
 class PublishManager(models.Manager):
     def get_queryset(self):
