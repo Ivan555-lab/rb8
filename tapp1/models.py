@@ -3,9 +3,15 @@ from django.utils import timezone
 from django.contrib.auth.models import User
 from django.urls import reverse
 
+
 #t2
 #f1
 #fi53
+#t1
+#hf1
+#hf2 add
+#hf3
+
 class PublishManager(models.Manager):
     def get_queryset(self):
         return super().get_queryset().filter(status='published')
